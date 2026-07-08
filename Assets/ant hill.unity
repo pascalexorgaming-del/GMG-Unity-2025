@@ -485,8 +485,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &136576278
 SpriteRenderer:
   serializedVersion: 3
@@ -649,8 +649,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &257046233
 SpriteRenderer:
   serializedVersion: 3
@@ -748,11 +748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7367947104396549474, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22
+      value: -21.85
       objectReference: {fileID: 0}
     - target: {fileID: 7367947104396549474, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.2
+      value: 11.81
       objectReference: {fileID: 0}
     - target: {fileID: 7367947104396549474, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
       propertyPath: m_LocalPosition.z
@@ -951,7 +951,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 38.184006, y: 0.63999844}
+  m_Offset: {x: 48.71721, y: -20.166332}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -961,7 +961,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 145.18005, y: 0.000100016594}
+  m_Size: {x: 202.13736, y: 41.612762}
   m_EdgeRadius: 0
 --- !u!1 &374080998
 GameObject:
@@ -1045,7 +1045,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -31.741873, y: 0.63999844}
+  m_Offset: {x: -47.767357, y: 13.572848}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1055,7 +1055,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 123.81087, y: 0.000100016594}
+  m_Size: {x: 155.86183, y: 25.8658}
   m_EdgeRadius: 0
 --- !u!212 &374081002
 SpriteRenderer:
@@ -1704,6 +1704,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 883165487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &592826295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 592826297}
+  - component: {fileID: 592826296}
+  m_Layer: 0
+  m_Name: gem sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &592826296
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592826295}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 7b02596405f234fdd880738731a9da90, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &592826297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592826295}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.97957, y: 23.07069, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &600313638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5615145396748845476, guid: 94aa7560b17011f4498e49e4b5283588, type: 3}
@@ -1844,8 +1973,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &621184666
 SpriteRenderer:
   serializedVersion: 3
@@ -2041,7 +2170,7 @@ Transform:
   m_GameObject: {fileID: 640215716}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22, y: 12.2, z: -10}
+  m_LocalPosition: {x: -21.85, y: 11.81, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2889,8 +3018,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &904800970
 SpriteRenderer:
   serializedVersion: 3
@@ -3212,8 +3341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1030675039
 SpriteRenderer:
   serializedVersion: 3
@@ -3592,8 +3721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1206658341
 SpriteRenderer:
   serializedVersion: 3
@@ -3756,8 +3885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1211451906
 SpriteRenderer:
   serializedVersion: 3
@@ -4069,7 +4198,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.83930373, y: -22.439308}
+  m_Offset: {x: -24.323524, y: -39.02545}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4079,7 +4208,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.492535, y: 57.160675}
+  m_Size: {x: 53.81819, y: 142.06436}
   m_EdgeRadius: 0
 --- !u!212 &1283366778
 SpriteRenderer:
@@ -9963,8 +10092,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1475804026
 SpriteRenderer:
   serializedVersion: 3
@@ -10127,8 +10256,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1494637651
 SpriteRenderer:
   serializedVersion: 3
@@ -10481,8 +10610,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableAttribute
   pointsWorth: 1
-  playSound: 0
-  audioSrc: {fileID: 0}
+  playSound: 1
+  audioSrc: {fileID: 592826296}
 --- !u!212 &1600777319
 SpriteRenderer:
   serializedVersion: 3
@@ -10727,7 +10856,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 6.0244465, y: 25.28861}
+  m_Offset: {x: 21.065908, y: 20.509064}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10737,7 +10866,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 9.771366, y: 56.067753}
+  m_Size: {x: 39.85429, y: 111.17296}
   m_EdgeRadius: 0
 --- !u!212 &1822333400
 SpriteRenderer:
@@ -12308,7 +12437,7 @@ Transform:
   m_GameObject: {fileID: 2138702907}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22, y: 12.2, z: -10}
+  m_LocalPosition: {x: -21.85, y: 11.81, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12324,8 +12453,9 @@ SceneRoots:
   - {fileID: 2138702910}
   - {fileID: 363389441}
   - {fileID: 1923755745}
-  - {fileID: 1954317859}
   - {fileID: 2070217899}
+  - {fileID: 1954317859}
   - {fileID: 883165487}
   - {fileID: 1030675040}
   - {fileID: 366130335}
+  - {fileID: 592826297}
